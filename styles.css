@@ -1,5 +1,30 @@
-.city-name{
-    padding-top: 45px;
-    padding-bottom: 35px;
-    text-align: center;
+h1 {
+  color: #155263;
+  text-align: right;
+  font-size: 20px;
+}
+.container {
+  height: 100%;
+  border-radius: 0;
+  border: 5px solid #ff9a3c;
+  margin: 0 auto;
+  display: block;
+  padding: 5px;
+}
+.fit {
+  width: 650px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.col:hover {
+  color: #ff9a3c;
+}
+#celsius-link,
+#temperature {
+  text-decoration: none;
+  color: #155263;
+  padding-left: 9px;
+  font-size: 20px;
+  color: #155263;
 }
